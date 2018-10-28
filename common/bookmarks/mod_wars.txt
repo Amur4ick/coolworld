@@ -1,0 +1,87 @@
+bookmarks = {
+	bookmark = {
+		name = "MOD_WARS_NAME"
+		desc = "MOD_WARS_DESC"
+		date = 2017.1.1.1
+		picture = "GFX_select_date_1936"
+		default_country = "KEM"
+		default = yes
+		
+		"KEM"={
+			history = "KEM_MOD_WARS_DESC"
+			ideology = democratic
+			ideas = {
+			
+			}
+			focuses = {
+			
+			}
+		}
+		"SIB"={
+			history = "SIB_MOD_WARS_DESC"
+			ideology = democratic
+			ideas = {
+			
+			}
+			focuses = {
+			
+			}
+		}
+		"USN"={
+			history = "UNS_MOD_WARS_DESC"
+			ideology = democratic
+			ideas = {
+			
+			}
+			focuses = {
+			
+			}
+		}
+		"CMS"={
+			history = "CMS_MOD_WARS_DESC"
+			ideology = democratic
+			ideas = {
+			
+			}
+			focuses = {
+			
+			}
+		}
+		"NMS"={
+			history = "NMS_MOD_WARS_DESC"
+			ideology = communism
+			ideas = {
+			
+			}
+			focuses = {
+			
+			}
+		}
+
+		"---"={
+			history = "OTHER_MOD_WARS_DESC"
+		}
+
+
+		# minors from DLC ####
+		#"POL"={
+		#	minor = yes
+		#	history = "POL_MOD_WARS_DESC"
+		#	ideology = neutrality
+		#	ideas = {
+		#		
+		#	}
+		#	focuses = {
+		#		POL_the_baltic_alliance
+		#		POL_draw_closer_to_britain
+		#		POL_seek_accommodation_with_germany
+		#	}
+		#}
+		
+
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

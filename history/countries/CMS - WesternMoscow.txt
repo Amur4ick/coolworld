@@ -1,0 +1,48 @@
+﻿capital = 513
+oob = «CMS_1936»
+set_research_slots = 3
+set_technology = {
+}
+
+set_convoys = 140
+
+set_politics = {
+ parties = {
+
+    set_autonomy = {
+    target = LGR
+    autonomous_state = autonomy_intergrated_puppet
+}
+
+ democratic = { popularity = 0 }
+
+ neutrality = { popularity = 0 }
+
+ communism = { popularity = 50 }
+
+ fascism = { popularity = 0 }
+
+ }
+
+ ruling_party = neutrality
+ last_election = "1936.1.1"
+ election_frequency = 48
+ elections_allowed = no
+
+}
+
+create_country_leader = {
+ name = "Stepan Oganesyan"
+ desc = ""
+ picture = "gfx/leaders/Stepan_Oganesyan.dds"
+ expire = "1989.1.1"
+ ideology = despotism
+ traits = { }
+}
+
+create_field_marshal = { 
+ name = "dn" 
+ picture = "gfx/leaders/SHL/SHL_mikhail.dds" 
+ traits = { } 
+ skill = 3 
+}

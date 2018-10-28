@@ -1,0 +1,114 @@
+KEM = {
+    male = { 
+	    names = { Moks Maxim Maximilian
+		} 
+	}
+	surnames = { Anderson
+	}
+	callsigns = { Great Lord Protector Great Political Adviser Great Field Marshal
+}
+SIB = {
+    male = { 
+	    names = { Moks Maxim Maximilian
+		} 
+	}
+	surnames = { Anderson
+	}
+	callsigns = { Great Lord Protector Great Political Adviser Great Field Marshal
+}
+EFK = {
+    male = { 
+	    names = { Kirill
+		} 
+	}
+	surnames = { Lopatin
+	}
+	callsigns = { King Of Tolerance Rights Defender Lopatin
+}
+TSB = {
+    male = { 
+	    names = { Denis
+		} 
+	}
+	surnames = { Artemyev
+	}
+	callsigns = { Grand Bat'ko of Belarus General Bulba
+}
+SST = {
+    male = { 
+	    names = { Aleksander
+		}
+	}
+                surnames = ( Melkiy
+	}
+	callsigns = { Comrade Alexander "Roki"
+}
+MLD = {
+    male = { 
+	    names = { Andrey
+		}
+	}
+                surnames = ( Morgun
+	}
+	callsigns = { Emperor of Moldova
+}
+MLD = {
+    male = { 
+	    names = { Edvard
+		}
+	}
+                surnames = ( Avd
+	}
+	callsigns = { Neutral neutrality
+}
+LKV = {
+    male = { 
+	    names = { Roman
+		}
+	}
+                surnames = ( Lekavicius
+	}
+	callsigns = { 
+}
+TLP = {
+    male = { 
+	    names = { Alex
+	}
+                surnames = ( Krasnikov
+	}
+	callsigns = { Tovarish
+} 
+ING = {
+    male = { 
+	    names = { Maxim
+	}
+    surnames = { Belkovskiy
+	}
+	callsigns = { Leader of Ingermanlandia
+} 
+BLT = {
+    male = { 
+	    names = { Roman Edvard Czeslaw Daniil
+		}
+	}
+                surnames = { Lekavicius Avd Pilecki Shabanov
+	}
+	callsigns = { Sensei
+}	   
+SUX = {
+    male = { 
+	    names = { Suxrob
+		}
+	}
+                surnames = { Gm
+	}
+	callsigns = { Hackerman
+}	   
+KST = {
+    male = { 
+	    names = { Konstantin
+	}
+    surnames = { Lipatov
+	}
+	callsigns = { Ice Axe
+} 

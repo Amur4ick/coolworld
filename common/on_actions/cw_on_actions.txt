@@ -1,0 +1,14 @@
+on_actions = {
+
+	on_startup = {
+		effect = {
+			ZDR = {
+				country_event = {
+					id = zeder.1
+					days = 35
+				}
+			}
+		}
+	}
+	
+}

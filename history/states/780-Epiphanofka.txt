@@ -1,0 +1,24 @@
+state={
+	id=780
+	name="STATE_780"
+	manpower = megalopolis
+	
+	state_category = megalopolis
+
+	history={
+		owner = NMS
+		victory_points = {
+			11239 5 
+		}
+		buildings = {
+			infrastructure = 10
+			industrial_complex = 1
+			air_base = 1
+		}
+		add_core_of = NMS
+	}
+
+	provinces={
+		11239 
+	}
+}

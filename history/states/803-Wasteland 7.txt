@@ -1,0 +1,19 @@
+state={
+	id=803
+	name="STATE_803"
+	manpower = 100
+	
+	state_category = wasteland
+
+	history={
+		owner = NMS
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = NMS
+	}
+
+	provinces={
+		3163 9107 9153 11083 11093 11165 
+	}
+}

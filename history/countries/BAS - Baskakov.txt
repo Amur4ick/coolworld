@@ -1,0 +1,37 @@
+capital = 430
+oob = «BAS_1936»
+set_research_slots = 3
+set_technology = {
+ 
+}
+
+set_convoys = 140
+
+set_politics = {
+ parties = {
+
+  democratic = { popularity = 0 }
+
+  neutrality = { popularity = 0 }
+
+  communism = { popularity = 0 }
+
+ fascism = { popularity = 100 }
+
+ }
+
+ ruling_party = fascism
+ last_election = "1936.1.1"
+ election_frequency = 48
+ elections_allowed = no
+
+}
+
+create_country_leader = {
+ name = "Emperor Huowa"
+ desc = ""
+ picture = ""
+ expire = "1989.1.1"
+ ideology = fascism_ideology
+ traits = { }
+}

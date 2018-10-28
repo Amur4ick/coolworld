@@ -1,0 +1,25 @@
+
+state={
+	id=771
+	name="STATE_771"
+	manpower = 68831
+	
+	state_category = wasteland
+	
+	resources={
+		chromium=20
+	}
+
+	history={
+		owner = TLP
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = TLP
+	}
+
+	provinces={
+		4874 7824 10216 12659
+	}
+}

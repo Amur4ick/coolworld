@@ -1,0 +1,23 @@
+
+state={
+	id=247
+	name="STATE_247"
+	manpower = 1331211
+	state_category = megalopolis
+
+	history={
+		owner = NMS
+		victory_points = {
+			6245 5 
+		}
+		buildings = {
+			infrastructure = 10
+			air_base = 2
+		}
+		add_core_of = NMS
+	}
+
+	provinces={
+		6245 
+	}
+}

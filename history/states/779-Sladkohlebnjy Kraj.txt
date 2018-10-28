@@ -1,0 +1,21 @@
+state={
+	id=779
+	name="STATE_779"
+	manpower = 1635549
+	
+	state_category = town
+
+	history={
+		owner = NMS
+		buildings = {
+			infrastructure = 5
+			arms_factory = 2
+			air_base = 1
+		}
+		add_core_of = NMS
+	}
+
+	provinces={
+		231 252 346 3116 3220 3240 6101 9122 11099 11166 11205 
+	}
+}

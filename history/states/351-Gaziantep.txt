@@ -1,0 +1,23 @@
+
+state={
+	id=351
+	name="STATE_351" # Vologda
+	manpower = 2352100
+	
+	state_category = megalopolis
+
+	history={
+		owner = NMS
+		victory_points = {
+			23 5 
+		}
+		buildings = {
+			infrastructure = 10
+		}
+		add_core_of = NMS
+	}
+
+	provinces={
+		23
+	}
+}

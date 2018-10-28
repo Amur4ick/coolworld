@@ -1,0 +1,44 @@
+﻿capital = 568
+oob = «SIB_1936»
+set_research_slots = 3
+set_technology = {
+
+}
+
+set_convoys = 140
+
+set_politics = {
+ parties = {
+
+ democratic = { popularity = 0 }
+
+ neutrality = { popularity = 0 }
+
+ communism = { popularity = 50 }
+
+ fascism = { popularity = 0 }
+
+ }
+
+ ruling_party = neutrality
+ last_election = "1936.1.1"
+ election_frequency = 48
+ elections_allowed = no
+
+}
+
+create_country_leader = {
+ name = "Great Lord Protector Moks"
+ desc = ""
+ picture = "gfx/leaders/Moks_Siberia.dds"
+ expire = "1989.1.1"
+ ideology = despotism
+ traits = { }
+}
+
+create_field_marshal = { 
+ name = "Great Field Marshal Maximilian" 
+ picture = "gfx/leaders/SHL/SHL_mikhail.dds" 
+ traits = { } 
+ skill = 3 
+}

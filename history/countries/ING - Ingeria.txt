@@ -1,0 +1,42 @@
+﻿capital = 195
+oob = «ING_1936»
+set_research_slots = 3
+set_technology = {
+}
+
+set_convoys = 140
+
+set_politics = {
+ parties = {
+
+ neutrality = { popularity = 0 }
+
+ communism = { popularity = 100 }
+
+ fascism = { popularity = 0 }
+
+ }
+
+ ruling_party = communism
+ last_election = 1936.1.1
+ election_frequency = 48
+ elections_allowed = no
+
+}
+
+create_country_leader = {
+ name = "Maxim Belkovskiy"
+ desc = ""
+ picture = "gfx/leaders/SHL/SHL_fascism.dds"
+ expire = "1989.1.1"
+ ideology = anarchist_communism
+ traits = { }
+}
+
+
+create_field_marshal = { 
+ name = "dn"
+ picture = "gfxleadersSHLSHL_mikhail.dds"
+ traits = { } 
+ skill = 3 
+}

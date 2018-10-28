@@ -1,0 +1,132 @@
+add_namespace = zeder
+
+# Развал Совка (Зедера)
+country_event = {
+	id = zeder.1
+	title = zeder.1.t
+	desc = zeder.1.d
+	picture = GFX_report_event_soviet_soldiers
+	
+	is_triggered_only = yes
+	
+	option = { # Ок
+		name = zeder.1.a
+		ai_chance = {
+			factor = 5
+		}
+		MLD = {
+			transfer_state = 4
+			transfer_state = 152
+			transfer_state = 153
+			transfer_state = 52
+			transfer_state = 53
+			transfer_state = 9
+			transfer_state = 69
+			transfer_state = 66
+		}
+		LGR = {
+			transfer_state = 28
+			transfer_state = 3
+			transfer_state = 151
+			transfer_state = 50
+			transfer_state = 42
+			transfer_state = 8
+			transfer_state = 34
+			transfer_state = 6
+			transfer_state = 51
+			transfer_state = 35
+			transfer_state = 36
+			transfer_state = 7
+		}
+		#BLU = {
+		#	transfer_state = 5
+		#	transfer_state = 85
+		#}
+		TSB = {
+			transfer_state = 10
+			transfer_state = 98
+			transfer_state = 87
+			transfer_state = 86
+			transfer_state = 5
+			transfer_state = 85
+		}
+		hidden_effect = {
+			news_event = {
+				id = cw_news.1
+				days = 2
+			}
+		}
+	}
+	option = { # Не ок
+		name = zeder.1.b
+		ai_chance = {
+			factor = 5
+		}
+		
+		hidden_effect = {
+			country_event = {
+				id = zeder.2
+				days = 2
+			}
+		}
+	}
+}
+
+# Опять развал
+country_event = {
+	id = zeder.2
+	title = zeder.2.t
+	desc = zeder.2.d
+	picture = GFX_report_event_soviet_soldiers
+	
+	is_triggered_only = yes
+	
+	option = { # Ок
+		name = zeder.2.a
+		ai_chance = {
+			factor = 5
+		}
+		MLD = {
+			transfer_state = 4
+			transfer_state = 152
+			transfer_state = 153
+			transfer_state = 52
+			transfer_state = 53
+			transfer_state = 9
+			transfer_state = 69
+			transfer_state = 66
+		}
+		LGR = {
+			transfer_state = 28
+			transfer_state = 3
+			transfer_state = 151
+			transfer_state = 50
+			transfer_state = 42
+			transfer_state = 8
+			transfer_state = 34
+			transfer_state = 6
+			transfer_state = 51
+			transfer_state = 35
+			transfer_state = 36
+			transfer_state = 7
+		}
+		#BLU = {
+		#	transfer_state = 5
+		#	transfer_state = 85
+		#}
+		TSB = {
+			transfer_state = 10
+			transfer_state = 98
+			transfer_state = 87
+			transfer_state = 86
+			transfer_state = 5
+			transfer_state = 85
+		}
+		hidden_effect = {
+			news_event = {
+				id = cw_news.1
+				days = 2
+			}
+		}
+	}
+}

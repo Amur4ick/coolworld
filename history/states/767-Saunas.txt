@@ -1,0 +1,21 @@
+
+state={
+	id=767
+	name="STATE_767"
+	manpower = 651930
+	
+	state_category = town
+	
+	history={
+		owner =  BLT
+		
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of =  BLT
+	}
+
+	provinces={
+		9246 9357 9374 9438 
+	}
+}

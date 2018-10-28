@@ -1,0 +1,56 @@
+﻿capital = 214
+oob = «LKV_1936»
+set_research_slots = 3
+set_technology = {
+}
+
+set_convoys = 140
+
+    set_autonomy = {
+    target = BLT
+    autonomous_state = autonomy_intergrated_puppet
+}
+    set_autonomy = {
+    target = LAP
+    autonomous_state = autonomy_intergrated_puppet
+}
+
+set_politics = {
+ parties = {
+
+ neutrality = { popularity = 0 }
+
+ communism = { popularity = 00 }
+
+ fascism = { popularity = 100 }
+
+ }
+
+ ruling_party = fascism
+ last_election = "1936.1.1"
+ election_frequency = 48
+ elections_allowed = no
+
+}
+
+create_faction = Totalitarian_Designerism
+add_to_faction = LKV
+add_to_faction = CHE
+add_to_faction = TSB
+
+create_country_leader = {
+ name = "Sensei Roman Lekavicius"
+ desc = ""
+ picture = "gfx/leaders/SHL/SHL_fascism.dds"
+ expire = "1989.1.1"
+ ideology = nazism
+ traits = { }
+}
+
+
+create_field_marshal = { 
+ name = "dn" 
+ picture = "gfx/leaders/SHL/SHL_mikhail.dds" 
+ traits = { } 
+ skill = 3 
+}

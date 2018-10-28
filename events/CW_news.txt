@@ -1,0 +1,28 @@
+﻿###########################
+# News Events
+###########################
+
+add_namespace = cw_news
+
+# Marco Polo Bridge I
+news_event = {
+	id = cw_news.1
+	title = cw_news.1.t
+	desc = cw_news.1.d
+	picture = GFX_news_event_001
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = cw_news.1.a
+		trigger = {
+			TAG = ZDR
+		}
+	}
+	option = {
+		name = cw_news.1.b
+		trigger = { NOT = { TAG = ZDR } }
+	}
+}
